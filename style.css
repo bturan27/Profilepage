@@ -1,0 +1,171 @@
+* {
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* MAINBOX */
+
+nav {
+    margin-bottom: 30px;
+    width: 100%;
+    background-color:#000 ;
+    height: 50px;
+    color:#fff;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    /* align-items: center;  */
+    list-style-type: none;
+    justify-content:space-around;
+    /* text-align: left;  */
+}
+.nav-links a {
+    color:#fff ;
+    text-decoration: none;
+}
+.btn {
+    padding: 5px 10px;
+    background-color: #17a2b8;
+    color:white;
+    border: none;
+}
+
+/* main section*/
+.main-section {
+    width:1000px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+/*COLUMN1LEFT START */
+.column1left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex:2 ;
+} 
+.user-card {
+    background-color: #fff;
+    border:3px solid black;
+    margin-bottom: 20px;
+}
+.card-header {
+    background-color: aqua;
+    height: 130px;
+    margin-bottom: 5px;
+}
+.avatar {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 130px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left:20px;
+}
+.card-body { 
+    padding: 30px;
+}
+.icone {
+    height: 15px; 
+    }
+
+.education {
+    width: 50%px;
+    margin-top: 10px;
+    border:1px solid #000;
+}
+.container1 {
+    background-color: #333333;
+    height: 30px;
+    color: #fff;
+    margin: 0px;
+    padding:5px;
+} 
+
+
+COLUMN2RIGHT STARTconnection
+
+.connect-circle {
+    background-color: #000;
+    border-radius: 20px;
+    position: absolute;
+    
+
+}
+.column2right {
+    margin-left:30px;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.connectionbody {
+    display: flex;
+    flex-direction: column;
+}
+.TODD {
+    display:flex;
+    flex-direction: row;
+}
+.Phil {
+    display:flex;
+    flex-direction: row;
+}
+.connectionrequest {
+    border: 1px solid #000;
+    background-color: rgb(2, 2, 2);
+    color:rgb(245, 240, 240);
+    width:100%;
+}
+.connectionrequest button {
+    border-radius: 60%;
+    margin:10px ;
+}
+.connectionbody img {
+    width: 100px;
+}
+
+/* Your connection section*/
+
+.rightbottom {
+
+    border: 1px solid #000;
+    margin-top: 30px;
+}
+.yoursection {
+    display:flex;
+    border: 1px solid #000;
+}
+.body img {
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Lastsection {
+    display: flex;
+    flex-direction: row;
+    
+}
+.Adrien  img {
+    width: 100px;
+}
+.Anne  img {
+    width: 100px;
+}
+.Alayne  img {
+    width: 100px;
+}
+.Arry img {
+    width: 100px;
+}
+
